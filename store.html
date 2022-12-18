@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="asset/image/Fauget Coffee.png" rel="icon" type="image/x-icon"/>
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css">   
+ <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="online-store">
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                <img src="asset/image/logo2.png" alt="">
+                <h2>Online Store <p> high quality coffee beans</p>
+                </h2>
+            </a>
+
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                        <img src="asset/image/p1.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">offee Bean</div>
+                            <div class="cart-price">Rp 100000</div> <input type="number" value="1"
+                                class="cart-quantity">
+                        </div>
+                        <i class="bx bxs-trash-alt cart-remove"></i>';
+                    </div> -->
+                </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rp 0</div>
+                </div>
+                <!-- buy button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- cart close -->
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- shop -->
+    <section class="shop container">
+        <div class="section-title">
+            <h2>Shop Products</h2>
+        </div>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="asset/image/p1.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 1</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p2.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 2</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p3.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 3</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p4.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 4</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p5.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 5</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p6.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 6</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p7.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 7</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p8.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 8</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p9.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 9</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p10.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 10</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p11.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 11</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="asset/image/p12.jpg" alt="" class="product-img">
+                <div class="box-items">
+                    <h2 class="product-title">Coffee beans 12</h2>
+                    <span class="price">Rp 100000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+    <footer id="contact">
+        <div class="footerbg">
+            <div class="content grid">
+                <div class="box">
+                    <div class="logo">
+                        <img src="asset/image/logo2.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                    <div class="icon flex">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <div class="address">
+                        <div class="item flex">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Our Location</h5>
+                                <span>Palangka Raya, Kalimantan Tengah</span>
+                            </div>
+                        </div>
+                        <div class="item flex">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Phone Number</h5>
+                                <span>+62 851 1012 2022</span>
+                                <br>
+                                <span>+62 851 1112 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3>Subscribe</h3>
+                    <div class="input flex1">
+                        <input type="text" placeholder="Your Email...">
+                        <input type="submit" value="Subscribe" class="submit">
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <span>I have read and agree to the terms & conditions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="legal">
+            <p>Copyright © 2022 Copyright Holder All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- shop end -->
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <!-- link to js -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
